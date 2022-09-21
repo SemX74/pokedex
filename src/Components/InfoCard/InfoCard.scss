@@ -1,0 +1,26 @@
+.InfoCard {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 1em 0;
+  border: 1px solid black;
+  margin-left: 6em;
+}
+.InfoCard_Table {
+  background: #000;
+  width: 60%;
+  margin: auto;
+}
+.InfoCard_title {
+  font-weight: 800;
+  font-size: 20px;
+}
+tr {
+  height: 10px;
+}
+th,
+td {
+  padding: 0.1em 0.4em;
+  background: #fff;
+  width: 150px;
+}

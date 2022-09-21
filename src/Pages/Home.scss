@@ -1,0 +1,59 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.Content_wrapper {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.Cards_wrapper {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.InfoCard_wrapper {
+  position: sticky;
+  top: 20px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Load_button {
+  margin-top: 2em;
+  height: 5em;
+  background: #008cff;
+  border: 2px solid #008cff;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 70%;
+  transition: 0.2s;
+}
+.Load_button:hover {
+  height: 5em;
+  background: #fff;
+  border: 2px solid #008cff;
+  color: #008cff;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 70%;
+}
+.Load_button:disabled {
+  background: gray;
+  border-color: gray;
+}
+.Load_button:disabled:hover {
+  cursor: not-allowed;
+  color: #fff;
+  background: gray;
+  border-color: gray;
+}
